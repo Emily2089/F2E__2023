@@ -1,0 +1,82 @@
+.last-activity {
+    max-width: 1280px;
+    height: 900px;
+    background: url("/Rectangle\ 4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.last-activity>p,
+.last-activity>h2 {
+    position: relative;
+    top: 80px;
+    left: 130px;
+    z-index: 2;
+}
+
+#last-activity__bg-left {
+    position: relative;
+    width: 450px;
+    object-fit: contain;
+    top: -740px;
+    left: -40px;
+
+}
+
+#last-activity__bg-right {
+    position: relative;
+    top: -90px;
+    right: -600px;
+}
+
+.last-activity > div {
+    display: flex;
+    position: relative;
+    max-width: 1100px;
+    overflow-x: scroll;
+    padding-bottom: 40px;
+    top: 80px;
+    left: 130px;
+    z-index: 2;
+}
+
+.last-activity article {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.last-activity div img {
+    width: 390px;
+    height: 210px;
+}
+
+.article-time {
+    display: flex;
+    text-align: center;
+}
+
+.article-year {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-color);
+}
+
+.article-date {
+    font-size: 20px;
+    margin: 8px;
+    line-height: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-color);
+}
+
+.article-line {
+    line-height: 80px;
+    margin-left: 6px;
+    color: var(--line-color);
+}
+
+.article-title {
+    min-height: 60px;
+}

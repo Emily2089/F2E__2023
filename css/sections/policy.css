@@ -1,0 +1,50 @@
+.policy {
+    height: 720px;
+}
+
+.policy>p,
+.policy>h2 {
+    position: relative;
+    top: 40px;
+    left: 130px;
+}
+
+.policy__bg {
+    width: 970px;
+    object-fit: contain;
+    position: relative;
+    left: 190px;
+    top: -210px;
+    z-index: -1;
+}
+
+.policy__content {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    left: 130px;
+}
+
+.policy__content img {
+    width: 470px;
+    object-fit: contain;
+    margin-right: 40px;
+}
+
+.policy__content div {
+    max-width: 420px;
+    max-height: 275px;
+    padding-right: 50px;
+    overflow-y: scroll;
+}
+
+.policy__content p {
+    margin-block-start: 0;
+    margin-block-end: 0.5em;
+}
+
+.policy__content ol {
+    
+    padding-inline-start: 20px;
+}

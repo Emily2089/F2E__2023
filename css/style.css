@@ -1,0 +1,74 @@
+/* 下載字型 */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
+
+/* 載入其它 CSS 檔 */
+@import url("sections/header.css");
+@import url("sections/intro.css");
+@import url("sections/about.css");
+@import url("sections/activity.css");
+@import url("sections/policy.css");
+@import url("sections/donate.css");
+@import url("sections/feedback.css");
+@import url("sections/footer.css");
+
+/* 聲明全域 CSS 變數 */
+:root {
+    --noto-sans-tc: "Noto Sans TC";
+    --primary-color: #EA7F1B;
+    --primary-hover-color: #F1A864;
+    --second-primary-color: #45280D;
+    --second-primary-hover-color: #845428;
+    --body-color: #505050;
+    --text-color: #858585;
+    --line-color: #9C9C9C;
+    --disabled-color: #DFDFDF;
+    --background-color: #FFFFFF;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1280px;
+    padding: 0 100px;
+    background-color: var(--background-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 通用 class */
+.subtitle {
+    font-size: 20px;
+    margin-block-end: 0;
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 13px;
+    margin-block-start: 0;
+    color: var(--second-primary-color);
+    font-family: var(--noto-sans-tc);
+}
+
+.description-title {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    color: var(--body-color);
+    font-family: var(--noto-sans-tc);
+}
+
+.description {
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: var(--body-color);
+    font-family: var(--noto-sans-tc);
+}
